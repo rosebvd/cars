@@ -662,7 +662,7 @@ function join(){
 	
 	for(var i = 0; i < 100; i++){
 		var cube = new THREE.Mesh(
-			new THREE.BoxBufferGeometry(50, 50, 50),
+			new THREE.BoxBufferGeometry(100, 100, 100),
 			new THREE.MeshLambertMaterial({color: new THREE.Color("#888"), side: THREE.DoubleSide})
 		);
 		var dist = Math.random() * 250 + 250;
