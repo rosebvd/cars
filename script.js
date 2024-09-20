@@ -1,12 +1,12 @@
-var SPEED = 0.006;
+var SPEED = 0.01;
 var CAMERA_LAG = 0.9;
 var COLLISION = 0.5;
 var BOUNCE = 0.3;
-var mapscale = 5;
+var mapscale = 7;
 var shiny = false;
 var VR = false;
-var BOUNCE_CORRECT = 0.01;
-var WALL_SIZE = 1.2;
+var BOUNCE_CORRECT = 0.00;
+var WALL_SIZE = 2;
 function MODS(){
 	
 }
